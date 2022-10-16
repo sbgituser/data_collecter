@@ -24,6 +24,7 @@
             size="80"
             color="grey"
           ></v-list-item-avatar> -->
+          
           <v-icon x-large>
             {{ icon }}
           </v-icon>
