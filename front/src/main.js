@@ -6,7 +6,7 @@ import vuetify from './plugins/vuetify'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
-axios.defaults.baseURL = 'https://8a4woptaxl.execute-api.ap-northeast-1.amazonaws.com'
+axios.defaults.baseURL = process.env.VUE_APP_API_BASE
 Vue.use(VueAxios, axios)
 
 Vue.config.productionTip = false
