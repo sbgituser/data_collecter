@@ -3,6 +3,7 @@
     <v-app-bar
       app
       shrink-on-scroll
+      color='lime lighten-5'
     >
       <v-menu
         open-on-hover
@@ -41,9 +42,7 @@
     </v-app-bar>
 
     <v-main>
-      <v-container>
         <router-view/>
-      </v-container>
     </v-main>
   </v-app>
 </template>

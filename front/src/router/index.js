@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import BookInfoInput from '../views/BookInfoInput.vue'
+import BookTitleEditor from '../views/BookTitleEditor.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/book-info-input',
     name: 'BookInfoInput',
     component: BookInfoInput
+  },
+  {
+    path: '/book-title-editor',
+    name: 'BookTitleEditor',
+    component: BookTitleEditor
   }
 ]
 
